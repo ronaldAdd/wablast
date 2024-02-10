@@ -16,6 +16,7 @@ let counter = 0;
 app.use(cors({ origin: true }));
 
 const bodyParser = require("body-parser");
+app.set("views", "./views");
 app.set("view engine", "ejs");
 app.use(bodyParser.json());
 
