@@ -5,12 +5,13 @@ require("dotenv").config();
 //data
 const contact = require("./data/contacts.json");
 const contactChat = require("./data/historyChat.json");
+const path = require("path");
 
 const express = require("express"); //Import the express dependency
 const axios = require("axios").default;
 
 const app = express(); //Instantiate an express app, the main work horse of this server
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 
 let counter = 0;
 app.use(cors({ origin: true }));
@@ -74,7 +75,8 @@ app.get("/chatbot/contacts", async (req, res, next) => {
 
 app.get("/chatbot/login", async (req, res, next) => {
   var viewName = { sections: "content" };
-  res.render("chatlogin", viewName);
+  // res.render("chatlogin", viewName);
+  res.sendFile(path.join(__dirname, "/views/index.html"));
 });
 
 app.get("/", async (req, res, next) => {
