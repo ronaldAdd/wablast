@@ -75,7 +75,9 @@ app.get("/chatbot/login", async (req, res, next) => {
   res.render("chatlogin", viewName);
 });
 
-app.listen(port, () => {
-  //server starts listening for any attempts from a client to connect at port: {port}
-  console.log(`Now listening on port ${port}`);
-});
+// app.listen(port, () => {
+//   //server starts listening for any attempts from a client to connect at port: {port}
+//   console.log(`Now listening on port ${port}`);
+// });
+
+module.exports = app;
