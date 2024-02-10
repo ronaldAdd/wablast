@@ -1,0 +1,94 @@
+{
+  "chat": [
+    {
+      "id": 1,
+      "history": [
+        {
+          "id": 1,
+          "message": "Digital Marketing Guide line for dummies",
+          "type": "outgoing"
+        },
+        {
+          "id": 2,
+          "message": "I need help.",
+          "type": "outgoing"
+        },
+        {
+          "id": 3,
+          "message": "Konstantin_cv.docx",
+          "type": "outgoing"
+        },
+        {
+          "id": 4,
+          "message": "I hope these article helps.",
+          "type": "incoming"
+        },
+        {
+          "id": 5,
+          "message": "Do you know which App or feature it will require to set up.",
+          "type": "outgoing"
+        },
+        {
+          "id": 6,
+          "message": "Do you know which App or feature it will require to set up.",
+          "type": "outgoing"
+        },
+        {
+          "id": 7,
+          "message": "Do you know which App or feature it will require to set up.",
+          "type": "outgoing"
+        },
+        {
+          "id": 8,
+          "message": "Do you know which App or feature it will require to set up.",
+          "type": "outgoing"
+        },
+        {
+          "id": 9,
+          "message": "Do you know which App or feature it will require to set up.",
+          "type": "outgoing"
+        },
+        {
+          "id": 10,
+          "message": "Do you know which App or feature it will require to set up.",
+          "type": "outgoing"
+        },
+        {
+          "id": 11,
+          "message": "Do you know which App or feature it will require to set up.",
+          "type": "outgoing"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "history": [
+        {
+          "id": 3,
+          "message": "Hello",
+          "type": "outgoing"
+        },
+        {
+          "id": 4,
+          "message": "apa yang bisa saya bantu?",
+          "type": "outgoing"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "history": [
+        {
+          "id": 5,
+          "message": "Do you know which App or feature it will require to set up.",
+          "type": "outgoing"
+        },
+        {
+          "id": 6,
+          "message": "Do you know which App or feature it will require to set up.",
+          "type": "outgoing"
+        }
+      ]
+    }
+  ]
+}
