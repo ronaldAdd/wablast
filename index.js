@@ -10,7 +10,8 @@ const express = require("express"); //Import the express dependency
 const axios = require("axios").default;
 
 const app = express(); //Instantiate an express app, the main work horse of this server
-const port = 5001; //Save the port number where your server will be listening
+const PORT = process.env.PORT || 8080;
+
 let counter = 0;
 app.use(cors({ origin: true }));
 
@@ -75,9 +76,7 @@ app.get("/chatbot/login", async (req, res, next) => {
   res.render("chatlogin", viewName);
 });
 
-// app.listen(port, () => {
-//   //server starts listening for any attempts from a client to connect at port: {port}
-//   console.log(`Now listening on port ${port}`);
-// });
-
-module.exports = app;
+app.listen(PORT, () => {
+  //server starts listening for any attempts from a client to connect at port: {port}
+  console.log(`Now listening on port ${PORT}`);
+});
