@@ -11,7 +11,7 @@ const express = require("express"); //Import the express dependency
 const axios = require("axios").default;
 
 const app = express(); //Instantiate an express app, the main work horse of this server
-const PORT = 5001 || 8080;
+const PORT = 8080;
 
 let counter = 0;
 app.use(cors({ origin: true }));
